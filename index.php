@@ -26,11 +26,23 @@
           <span>Portfolio</span>
           <span>Contact</span>
         </div>
-        <div class="offset-md-1 col-md-2 d-flex justify-content-center align-items-end"><p class="header-button">Let’s Talk</p></div>
+        <div class="offset-md-1 col-md-2 d-flex justify-content-center align-items-end">
+          <p class="header-button">Let’s Talk</p>
+        </div>
+      </div>
+      <div class="main-content-group offset-md-1 col-md-5 g-0 position-absolute" style="top: 40%;">
+        <p class="main-hi">Hi ,i’m</p>
+        <p class="main-name main-gap">Kavindu</p>
+        <p class="main-role main-gap">I,m <span class="main-role-highlight">d</span>eveloper & <span class="main-role-highlight">P</span>rogrammer</p>
+        <p class="main-desc main-gap-desc">I am a visionary thinker with strong leadership, creativity, and communication skills. Passionate about innovation and problem-solving, I thrive in dynamic environments, bringing ideas to life through design and technology.</p>
+      </div>
+      <div class="g-0 position-absolute offset-md-1 col-md-2 d-flex justify-content-center align-items-center sty">
+        <button class="main-button">Contact Us</button>
       </div>
     </div>
   </div>
   <script src="script.js"></script>
   <script src="bootstrap.js"></script>
 </body>
+
 </html>
