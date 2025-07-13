@@ -1,11 +1,12 @@
-.header{
+/* header css */
+.header {
     height: 85px;
-    background-color:white;
+    background-color: white;
     border-radius: 19px;
     top: 33px;
 }
 
-.header-button{
+.header-button {
     background-color: #D54545;
     color: white;
     padding: 16px 16px;
@@ -16,4 +17,55 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+/* Texts & button on the main image */
+.main-hi, .main-role {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.main-name {
+    font-size: 57px;
+    color: white;
+    font-weight: 700;
+}
+
+.main-role-highlight {
+    font-size: 45px;
+    color: #B92C2D;
+    font-weight: 700;
+}
+
+.main-desc {
+    font-size: 20px;
+    color: white;
+}
+
+.main-button {
+    background-color: #D54545;
+    color: white;
+    padding: 16px 16px;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 620px;
+}
+
+.main-content-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-gap {
+    margin-top: -35px;
+}
+
+.main-gap-desc {
+    margin-top: -15px;
 }
