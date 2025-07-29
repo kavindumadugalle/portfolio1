@@ -1,9 +1,16 @@
+/* Always hide overflow for the whole app */
+html,
+body {
+    overflow-x: hidden;
+}
+
 /* header css */
 .header {
     height: 85px;
     background-color: white;
     border-radius: 19px;
     top: 33px;
+    position: absolute;
 }
 
 .header-button {
@@ -20,7 +27,14 @@
 }
 
 /* Texts & button on the main image */
-.main-hi, .main-role {
+.main-content-group {
+    margin-bottom: 5px;
+    position: absolute;
+    top: 40%;
+}
+
+.main-hi,
+.main-role {
     font-size: 40px;
     color: white;
     font-weight: 700;
@@ -54,12 +68,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 620px;
-}
-
-.main-content-group{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 .main-gap {
@@ -68,4 +77,96 @@
 
 .main-gap-desc {
     margin-top: -15px;
+}
+
+/* main mobile view text and button */
+@media (max-width: 576px) {
+
+    /* mobile background */
+    .mobile-main-background {
+        height: clamp(400px, 90vw, 500px);
+        background-color: #580514;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mobile-background-circle {
+        width: 500px;
+        height: 500px;
+        background-color: #BC2E30;
+        border-radius: 44% 50% 45% 50%;
+        position: absolute;
+        left: 60%;
+        z-index: 0;
+    }
+
+    .menu-bar {
+        height: clamp(30px, 10vw, 40px);
+        width: clamp(30px, 10vw, 40px);
+        background-color: #580514;
+        font-size: clamp(15px, 5vw, 25px);
+        margin-top: 10px;
+        right: 1%;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .main-content-group {
+        position: absolute;
+        top: 93px;
+        text-align: center;
+    }
+
+    .main-hi,
+    .main-name {
+        font-size: clamp(15px, 5vw, 30px);
+        color: white;
+        font-weight: 700;
+    }
+
+    .main-role {
+        font-size: clamp(18px, 5vw, 35px);
+        color: white;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .main-role-highlight {
+        font-size: clamp(18px, 5vw, 35px);
+        color: #B92C2D;
+        font-weight: 700;
+    }
+
+    .main-desc {
+        font-size: clamp(14px, 4vw, 18px);
+        color: white;
+    }
+
+    .mobile-main-button {
+        background-color: #D54545;
+        color: white;
+        padding: 12px 0px;
+        border-radius: 15px;
+        position: relative;
+        font-weight: 700;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .main-gap {
+        margin-top: -20px;
+    }
+
+    .main-gap-desc {
+        margin-top: -14px;
+    }
 }
