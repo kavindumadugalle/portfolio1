@@ -1,7 +1,7 @@
 /* Always hide overflow for the whole app */
 html,
 body {
-    overflow-x: hidden;
+    
 }
 
 /* header css */
