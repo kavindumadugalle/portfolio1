@@ -56,8 +56,16 @@
       </div>
     </div>
   </div>
+  <!-- About Section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="about-main-texts">
+        <p class="about-heading">About Me</p>
+        <p class="about-paragraph">Get To Know Me <span class="about-paragraph-highlight">Better</span></p>
+      </div>
+    </div>
+  </div>
   <script src="script.js"></script>
   <script src="bootstrap.js"></script>
 </body>
-
 </html>
